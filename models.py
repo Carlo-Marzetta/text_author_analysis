@@ -10,6 +10,7 @@ from enum import Enum
 class AnalysisType(str, Enum):
     WEIGHTED_JACCARD = "weighted_jaccard"
     COSINE = "cosine"
+    BERT = "tibert"
 
     @property
     def code(self) -> str:
