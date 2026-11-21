@@ -20,7 +20,7 @@ class AnalysisType(str, Enum):
     def label(self) -> str:
         return {
             AnalysisType.WEIGHTED_JACCARD: "Weighted Jaccard",
-            AnalysisType.COSINE: "Cosine Similarity",
+            AnalysisType.COSINE: "Cosine Similarity"
         }[self]
 
 
